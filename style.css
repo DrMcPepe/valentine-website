@@ -1,0 +1,140 @@
+body {
+    background-color: #ffc5e6;
+    color: #d60000;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 38, 68, 0.3);
+    max-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #ff257e;
+    margin-bottom: 20px;
+  }
+  
+  .images {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .images img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .poem {
+    font-size: 1rem;
+    color: #ff2644;
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+  
+  .question {
+    margin: 20px 0;
+  }
+  
+  .question-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff257e;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #ff257e;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ff2644;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #response {
+    margin-top: 20px;
+  }
+  
+  #yesResponse {
+    font-size: 1.2rem;
+    color: #ff257e;
+  }
+  
+  #yesGif {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  #noResponse img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .audio-player {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  audio {
+    width: 100%;
+    max-width: 200px; /* Smaller audio player */
+    margin: 10px auto;
+    background-color: #ffc5e6;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(255, 38, 68, 0.3);
+  }
+  
+  audio::-webkit-media-controls-panel {
+    background-color: #ffc5e6;
+    border-radius: 20px;
+  }
+  
+  audio::-webkit-media-controls-play-button,
+  audio::-webkit-media-controls-mute-button {
+    background-color: #ff257e;
+    border-radius: 50%;
+  }
+  
+  audio::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display {
+    color: #ff2644;
+  }
+  
+  .audio-label {
+    font-size: 0.9rem;
+    color: #ff257e;
+    margin-top: 5px;
+  }
